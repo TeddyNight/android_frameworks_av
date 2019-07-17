@@ -315,8 +315,10 @@ const char CameraParameters::KEY_SKIN_TONE_ENHANCEMENT[] = "skinToneEnhancement"
 const char CameraParameters::KEY_SUPPORTED_SKIN_TONE_ENHANCEMENT_MODES[] = "skinToneEnhancement-values";
 
 // Values for ISO Settings
+const char CameraParameters::KEY_ISO[] = "iso";
 const char CameraParameters::ISO_AUTO[] = "auto";
 const char CameraParameters::ISO_HJR[] = "ISO_HJR";
+const char CameraParameters::ISO_50[] = "ISO50";
 const char CameraParameters::ISO_100[] = "ISO100";
 const char CameraParameters::ISO_200[] = "ISO200";
 const char CameraParameters::ISO_400[] = "ISO400";

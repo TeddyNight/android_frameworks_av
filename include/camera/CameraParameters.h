@@ -587,6 +587,7 @@ public:
 #if defined(QCOM_HARDWARE) || defined(EXYNOS4X12_ENHANCEMENTS) || defined(HAVE_ISO)
     static const char KEY_SUPPORTED_ISO_MODES[];
     static const char KEY_ISO_MODE[];
+    static const char KEY_ISO[];
 #endif
 
 #ifdef QCOM_HARDWARE
@@ -868,6 +869,7 @@ public:
     static const char FOCUS_MODE_NORMAL[];
     static const char ISO_AUTO[];
     static const char ISO_HJR[] ;
+    static const char ISO_50[];
     static const char ISO_100[];
     static const char ISO_200[] ;
     static const char ISO_400[];
