@@ -679,7 +679,7 @@ public:
     static const char METERING_OFF[];
     static const char KEY_SATURATION[];
     static const char KEY_CONTRAST[];
-    static const char KEY_SHARPNESSE[];
+    static const char KEY_SHARPNESS[];
 #endif
 
     // Values for white balance settings.
