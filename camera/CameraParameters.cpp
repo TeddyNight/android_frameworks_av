@@ -152,6 +152,10 @@ const char CameraParameters::KEY_ANTI_SHAKE_MODE[] = "anti-shake";
 const char CameraParameters::KEY_METERING[] = "metering";
 const char CameraParameters::KEY_WDR[] = "wdr";
 const char CameraParameters::KEY_WEATHER[] = "weather";
+const char CameraParameters::METERING_CENTER[] = "center";
+const char CameraParameters::METERING_MATRIX[] = "matrix";
+const char CameraParameters::METERING_SPOT[] = "spot";
+const char CameraParameters::METERING_OFF[] = "off";
 #endif
 const char CameraParameters::KEY_VIDEO_SIZE[] = "video-size";
 const char CameraParameters::KEY_SUPPORTED_VIDEO_SIZES[] = "video-size-values";

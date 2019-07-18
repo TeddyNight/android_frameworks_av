@@ -673,6 +673,10 @@ public:
     static const char KEY_METERING[];
     static const char KEY_WDR[];
     static const char KEY_WEATHER[];
+    static const char METERING_CENTER[];
+    static const char METERING_MATRIX[];
+    static const char METERING_SPOT[];
+    static const char METERING_OFF[];
 #endif
 
     // Values for white balance settings.
