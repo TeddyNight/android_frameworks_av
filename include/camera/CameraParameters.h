@@ -677,6 +677,7 @@ public:
     static const char METERING_MATRIX[];
     static const char METERING_SPOT[];
     static const char METERING_OFF[];
+    static const char KEY_SATURATION[];
 #endif
 
     // Values for white balance settings.
