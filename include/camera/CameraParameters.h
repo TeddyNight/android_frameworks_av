@@ -867,7 +867,7 @@ public:
     static const char ISO_800[];
     static const char SCENE_MODE_DUSK_DAWN[];
     static const char SCENE_MODE_FALL_COLOR[];
-    static const char SCENE_MODE_BACKLIGHT[];
+    static const char SCENE_MODE_BACK_LIGHT[];
     static const char SCENE_MODE_TEXT[]; 
 #endif
 
