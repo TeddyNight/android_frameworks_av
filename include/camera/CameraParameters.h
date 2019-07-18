@@ -865,6 +865,8 @@ public:
     static const char ISO_200[] ;
     static const char ISO_400[];
     static const char ISO_800[];
+    static const char SCENE_MODE_DUSK_DAWN[];
+    static const char SCENE_MODE_FALL_COLOR[];
 #endif
 
 #ifdef QCOM_HARDWARE
