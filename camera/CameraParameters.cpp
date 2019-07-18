@@ -157,6 +157,8 @@ const char CameraParameters::METERING_MATRIX[] = "matrix";
 const char CameraParameters::METERING_SPOT[] = "spot";
 const char CameraParameters::METERING_OFF[] = "off";
 const char CameraParameters::KEY_SATURATION[] = "saturation";
+const char CameraParameters::KEY_CONTRAST[] = "contrast";
+const char CameraParameters::KEY_SHARPNESS[] = "sharpness";
 #endif
 const char CameraParameters::KEY_VIDEO_SIZE[] = "video-size";
 const char CameraParameters::KEY_SUPPORTED_VIDEO_SIZES[] = "video-size-values";
