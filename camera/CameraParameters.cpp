@@ -311,7 +311,6 @@ const char CameraParameters::FOCUS_MODE_CONTINUOUS_PICTURE[] = "continuous-pictu
 // Values for ISO Settings
 const char CameraParameters::KEY_ISO[] = "iso";
 const char CameraParameters::ISO_AUTO[] = "auto";
-const char CameraParameters::ISO_HJR[] = "ISO_HJR";
 const char CameraParameters::ISO_50[] = "ISO50";
 const char CameraParameters::ISO_100[] = "ISO100";
 const char CameraParameters::ISO_200[] = "ISO200";
