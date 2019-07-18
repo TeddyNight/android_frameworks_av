@@ -325,6 +325,8 @@ const char CameraParameters::ISO_400[] = "ISO400";
 const char CameraParameters::ISO_800[] = "ISO800";
 const char CameraParameters::SCENE_MODE_DUSK_DAWN[] = "dusk-dawn";
 const char CameraParameters::SCENE_MODE_FALL_COLOR[] = "fall-color";
+const char CameraParameters::SCENE_MODE_TEXT[] = "text";
+const char CameraParameters::SCENE_MODE_BACKLIGHT[] = "backlight";
 #endif
 
 #if defined(QCOM_HARDWARE)
