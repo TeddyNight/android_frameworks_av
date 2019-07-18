@@ -851,6 +851,14 @@ public:
     // To stop continuous focus, applications should change the focus mode to
     // other modes.
     static const char FOCUS_MODE_CONTINUOUS_PICTURE[];
+#ifdef SPRD_HARDWARE
+    static const char ISO_AUTO[];
+    static const char ISO_50[];
+    static const char ISO_100[];
+    static const char ISO_200[] ;
+    static const char ISO_400[];
+    static const char ISO_800[];
+#endif
 
 #ifdef QCOM_HARDWARE
     static const char FOCUS_MODE_CONTINUOUS_CAMERA[];
@@ -869,7 +877,6 @@ public:
     static const char FOCUS_MODE_NORMAL[];
     static const char ISO_AUTO[];
     static const char ISO_HJR[] ;
-    static const char ISO_50[];
     static const char ISO_100[];
     static const char ISO_200[] ;
     static const char ISO_400[];

@@ -306,6 +306,19 @@ const char CameraParameters::FOCUS_MODE_FIXED[] = "fixed";
 const char CameraParameters::FOCUS_MODE_EDOF[] = "edof";
 const char CameraParameters::FOCUS_MODE_CONTINUOUS_VIDEO[] = "continuous-video";
 const char CameraParameters::FOCUS_MODE_CONTINUOUS_PICTURE[] = "continuous-picture";
+
+#if defined(SPRD_HARDWARE)
+// Values for ISO Settings
+const char CameraParameters::KEY_ISO[] = "iso";
+const char CameraParameters::ISO_AUTO[] = "auto";
+const char CameraParameters::ISO_HJR[] = "ISO_HJR";
+const char CameraParameters::ISO_50[] = "ISO50";
+const char CameraParameters::ISO_100[] = "ISO100";
+const char CameraParameters::ISO_200[] = "ISO200";
+const char CameraParameters::ISO_400[] = "ISO400";
+const char CameraParameters::ISO_800[] = "ISO800";
+#endif
+
 #if defined(QCOM_HARDWARE)
 const char CameraParameters::FOCUS_MODE_CONTINUOUS_CAMERA[] = "continuous-camera";
 const char CameraParameters::FOCUS_MODE_NORMAL[] = "normal";
@@ -315,10 +328,8 @@ const char CameraParameters::KEY_SKIN_TONE_ENHANCEMENT[] = "skinToneEnhancement"
 const char CameraParameters::KEY_SUPPORTED_SKIN_TONE_ENHANCEMENT_MODES[] = "skinToneEnhancement-values";
 
 // Values for ISO Settings
-const char CameraParameters::KEY_ISO[] = "iso";
 const char CameraParameters::ISO_AUTO[] = "auto";
 const char CameraParameters::ISO_HJR[] = "ISO_HJR";
-const char CameraParameters::ISO_50[] = "ISO50";
 const char CameraParameters::ISO_100[] = "ISO100";
 const char CameraParameters::ISO_200[] = "ISO200";
 const char CameraParameters::ISO_400[] = "ISO400";
